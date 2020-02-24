@@ -1,2 +1,94 @@
-* {
+/* Start Bootstrap*/
+.bg-light{
+  background-color: #14213D !important;
+  font-family: 'Arial', sans-serif !important;
+  font-size: 22px !important;
+}
+
+.navbar-brand {
+  color: #E5E5E5 !important;
+}
+/* End Bootstrap **/
+
+.input-stuff{
+  display: inline-block;
+  margin-bottom: 1.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+   background-color: #E5E5E5;
+ }
+
+input {
+  background-color: #E5E5E5;
+}
+
+legend {
+  margin-top: 1.5%;
+  background-color: #770011;
+  color: #E5E5E5;
+}
+
+p {
+  background-color: #E5E5E5;
+}
+
+select {
+  background-color: #E5E5E5;
+}
+/* Start Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 5px solid #FFFFFF;
+  background-color: #14213D;
+  color: #E5E5E5;
+  height: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex: 1;
+  text-align: center;
+  font-family: 'Arial', sans-serif !important;
+  font-size: 18px !important;
+}
+
+.footer-three {
+  flex: 2;
+}
+
+.footer-one, .footer-three {
+  background-color: #14213D;
+  flex: initial;
+  width: 200px;
+}
+/* End Footer Test*/
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+    .footer-item {font-size: 10%;}
+    .input-stuff {
+
+    }
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    .footer-item {font-size: 10%;}
 }
